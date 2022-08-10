@@ -1,0 +1,144 @@
+/* 主体图片 */
+.main_img {
+    height: 240px;
+    background: url(../images/1_1.jpg) no-repeat;
+    background-size: initial;
+}
+
+h2 {
+    color: #D90000;
+}
+
+.main_img span {
+    float: left;
+    margin-top: 160px;
+    width: 250px;
+    height: 80px;
+    color: #fff;
+    line-height: 80px;
+    font-size: 34px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/* 主题内容 */
+.main_con {
+    background-color: #eee;
+}
+
+/* 导航栏 */
+.con_left {
+    float: left;
+    width: 250px;
+}
+
+.nav_hd,
+.call_w_hd {
+    width: 250px;
+    height: 48px;
+    font-size: 22px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, .5);
+    background-color: #D90000;
+    text-align: center;
+}
+
+.main_nav {
+    position: relative;
+    width: 250px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+.main_nav ul {
+    position: absolute;
+}
+
+.main_nav ul li {
+    width: 250px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 60px;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.main_nav ul li:hover {
+    color: #fff;
+}
+
+.main_nav ul li span {
+    float: left;
+}
+
+.main_nav ul li span:first-child {
+    margin-left: 48px;
+}
+
+.main_nav ul li span:last-child {
+    margin-left: 10px;
+}
+
+.nav_cloud {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    top: 0;
+    background-color: #D90000;
+}
+
+/* 联系我们 */
+.call_we {
+    width: 250px;
+}
+
+/* 文本介绍 */
+.main_text {
+    display: none;
+    float: left;
+    color: black;
+    margin: 10px 0 0 20px;
+}
+
+.main_t_hd {
+    width: 930px;
+    height: 72px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.main_t_hd span {
+    float: left;
+    width: 128px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 26px;
+    padding-left: 20px;
+    border-left: 5px solid #354052;
+}
+
+.main_t_bd {
+    width: 930px;
+    /* height: 428px; */
+    background-color: #fff;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.main_t_bd p {
+    text-indent: 2em;
+    margin-bottom: 8px;
+}
+
+.main_t_bd>ul li {
+    width: 900px;
+    height: 45px;
+    border-bottom: 1px solid #eee;
+    line-height: 45px;
+}
+
+.main_t_bd ul li span {
+    float: right;
+}

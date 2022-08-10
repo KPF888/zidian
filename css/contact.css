@@ -1,0 +1,12 @@
+.main_t_bd h2:first-child {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main_t_bd>ul li {
+    border: none;
+}
+
+.main_img {
+    background: url(../images/1_7.jpg) no-repeat;
+}

@@ -1,0 +1,11 @@
+.main_img {
+    background: url(../images/1_5.jpg) no-repeat;
+}
+
+h2 {
+    text-align: center;
+}
+
+.t_bd_con li {
+    display: none;
+}

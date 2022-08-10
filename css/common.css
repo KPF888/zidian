@@ -1,0 +1,203 @@
+body {
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    vertical-align: top;
+    outline: none;
+    border: none;
+}
+
+/* 顶部小栏部分 */
+.shortcut {
+    height: 37px;
+    background: #ddd;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.shortcut span {
+    line-height: 37px;
+}
+
+.shortcut ul {
+    float: right;
+}
+
+.shortcut ul li {
+    float: left;
+    margin-top: 11.5px;
+    padding: 0 5px 0;
+}
+
+.shortcut ul li:nth-child(1) {
+    border-right: 1px solid #ccc;
+}
+
+/* 顶部logo栏部分 */
+.top_search {
+    position: relative;
+    height: 100px;
+}
+
+.logo {
+    float: left;
+    width: 260px;
+    height: 100px;
+}
+
+.logo h1 {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.logo h1 a {
+    display: block;
+    height: 100%;
+    text-indent: -9999px;
+    background: url(../images/logo.jpg) no-repeat -5px -69px;
+    background-size: 100% 242%;
+}
+
+.top_search .tel {
+    position: absolute;
+    top: 30px;
+    right: 229px;
+    width: 167px;
+    height: 40px;
+}
+
+.top_search .tel img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.tel_num {
+    font-size: 18px;
+    color: #D90000;
+}
+
+.search_box {
+    position: relative;
+    float: right;
+    width: 167px;
+    height: 28px;
+    margin-top: 36px;
+    margin-right: 20px;
+}
+
+.search_box input {
+    outline: none;
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+
+.search_box::after {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: url(../images/icon_zoom_gray.png) no-repeat;
+    background-size: 18px;
+    cursor: pointer;
+}
+
+/* 页面导航栏部分 */
+nav {
+    height: 47px;
+    background-color: #E2231A;
+}
+
+nav ul li {
+    position: relative;
+    float: left;
+    width: 12.5%;
+    height: 47px;
+}
+
+nav ul li a {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 47px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.nav_mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+/* 尾部区域 */
+footer {
+    color: #bbb;
+    background-color: #333942;
+}
+
+footer a {
+    color: #bbb;
+}
+
+.fot_bd {
+    overflow: hidden;
+}
+
+.fb_manage,
+.fb_about,
+.fb_pro,
+.fb_apl {
+    float: left;
+}
+
+.fb_manage li,
+.fb_about li,
+.fb_pro li {
+    margin: 5px 0;
+}
+
+.fb_manage li:first-child,
+.fb_about li:first-child,
+.fb_pro li:first-child,
+.fb_apl li:first-child {
+    margin: 10px 0;
+}
+
+.fb_about {
+    margin-left: 148px;
+}
+
+.fb_pro,
+.fb_apl {
+    margin-left: 62px;
+}
+
+.copyright {
+    height: 45px;
+    margin: 0px auto 0px auto;
+    border-top: 1px solid #3f444c;
+    line-height: 45px;
+    text-align: center;
+    background: #292f38;
+}
